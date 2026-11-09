@@ -1,17 +1,9 @@
 name: mostrar_mensaje
-
 on:  [ push ]
-
 jobs:
-    job1:
-       
+    job1: 
         runs-on: windows-latest
-		
         steps:
-        
             -name: print date
              run: 
                 echo "$(date)"
-		
-
-	
