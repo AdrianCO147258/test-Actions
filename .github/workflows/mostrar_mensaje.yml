@@ -5,4 +5,4 @@ jobs:
         runs-on: windows-latest
         steps:
             -name: print date
-             run: echo "$(date)"
+             run: echo "message"
