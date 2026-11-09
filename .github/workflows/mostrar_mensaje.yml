@@ -1,0 +1,15 @@
+name: mostrar_mensaje
+
+on: [push]
+
+Jobs:
+	fecha:
+		runs-on: Windows-11
+		
+		steps:
+
+			-name:	fecha
+			run: echo $(date)
+		
+
+	
