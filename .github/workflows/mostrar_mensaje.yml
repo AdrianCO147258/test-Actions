@@ -1,15 +1,22 @@
 name: mostrar_mensaje
 
-on: [push]
+on: 
+    push:
+        branches: [ main ]
 
-Jobs:
-	fecha:
-		runs-on: Windows-11
+jobs:
+
+	build: 
+    
+		runs-on: windows-latest
 		
 		steps:
+        
+            -uses:
 
-			-name:	fecha
-			run: echo $(date)
+			-name: fech
+			run: 
+                echo "$(date)"
 		
 
 	
