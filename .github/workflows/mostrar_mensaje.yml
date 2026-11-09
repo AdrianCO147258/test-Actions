@@ -8,3 +8,5 @@ jobs:
            run: echo "message"
          - name: date
            run: echo "$(date)"
+         - name: jversion
+           run: echo "$(java -version)"
