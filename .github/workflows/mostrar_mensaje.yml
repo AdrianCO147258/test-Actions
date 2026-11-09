@@ -4,5 +4,4 @@ jobs:
     job1: 
         runs-on: windows-latest
         steps:
-            -name: print date
             run: echo "message"
